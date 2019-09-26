@@ -1,0 +1,25 @@
+{
+ [
+     {
+        'answers':[
+                'answer1.1',
+                'answer1.2',
+                'answer1.3',
+                'answer1.4'
+        ],
+        'question': 'question1',
+        'rightAnswer':'answer1.1'
+    },
+    {
+        'answers':[
+                'answer2.1',
+                'answer2.2',
+                'answer2.3',
+                'answer2.4'
+        ],
+        'question': 'question2',
+        'rightAnswer':'answer2.2'
+    }
+
+ ]
+}

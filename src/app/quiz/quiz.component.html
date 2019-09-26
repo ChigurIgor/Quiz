@@ -1,0 +1,11 @@
+<h3>{{ question }}</h3>
+<ul>
+  <li *ngFor="let answer of answersArr">
+    <input name="checkbox" type="radio" (change)="onRadioCheckChanged(answer)" [checked]="answer == userAnswer" />
+    {{ answer }}
+  </li>
+</ul>
+
+<button *ngIf="quizStart" (click)="prevQuestion()">Prev</button>
+<button *ngIf="questionId < questionsData.length - 1" (click)="nextQuestion()">Next</button>
+<button *ngIf="questionId == questionsData.length - 1">Done</button>
